@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Nyan::VERSION
   spec.authors       = ["Alex Coco"]
   spec.email         = ["alex.coco@shopify.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{Nyan cat game in Ruby with Gosu}
+  spec.summary       = %q{Nyan cat game}
   spec.homepage      = ""
   spec.license       = "MIT"
 
