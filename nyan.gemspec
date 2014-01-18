@@ -6,8 +6,8 @@ require 'nyan/version'
 Gem::Specification.new do |spec|
   spec.name          = "nyan"
   spec.version       = Nyan::VERSION
-  spec.authors       = ["Alex Coco"]
-  spec.email         = ["alex.coco@shopify.com"]
+  spec.authors       = ["Alex Coco", "Antoine Grondin"]
+  spec.email         = ["alex.coco@shopify.com", "antoine.grondin@shopify.com"]
   spec.description   = %q{Nyan cat game in Ruby with Gosu}
   spec.summary       = %q{Nyan cat game}
   spec.homepage      = ""
@@ -20,4 +20,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
+  spec.add_dependency "gosu", "~> 0.7"
 end
